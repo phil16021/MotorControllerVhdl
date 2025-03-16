@@ -1,0 +1,382 @@
+m255
+K4
+z2
+!s12c _opt2
+Z0 !s99 nomlopt
+!s12c _opt1
+R0
+!s12c _opt
+R0
+!s11e vcom 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dZ:/Abgabe1/MotorControllerVhdl/msim
+T_opt
+!s110 1742145992
+VaMfna6zSo>G:B=QncJVgZ0
+04 18 9 work tb_pwm_digital_top testbench 1
+=1-000c2979d2b6-67d709c4-2ba-1648
+R0
+Z2 !s12f OEM100
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2024.1;79
+R1
+T_opt1
+!s110 1742147292
+VdMBIOi9PTNff^9Cn;ej3W1
+Z8 04 10 9 work tb_pwm_spi testbench 1
+=4-000c2979d2b6-67d70edb-a7-1670
+R0
+R2
+R3
+R4
+R5
+R6
+n@_opt1
+R7
+R1
+T_opt2
+!s110 1742149929
+VT3OB4F6bbnDA`lG[@gfGa1
+R8
+=1-000c2979d2b6-67d71928-17c-664
+R0
+R2
+R3
+R4
+o-quiet -auto_acc_if_foreign -work work +acc
+R6
+n@_opt2
+R7
+Epwm_controller_e
+Z9 w1742140849
+Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 112
+R1
+Z13 8../vhdl/pwm_controller.vhd
+Z14 F../vhdl/pwm_controller.vhd
+l0
+L5 1
+V_6F7=>LE2jCLdkz^i^=XX2
+!s100 >d?FXN3=<@Zf42^XG>]3f2
+Z15 OL;C;2024.1;79
+32
+Z16 !s110 1742149303
+!i10b 1
+Z17 !s108 1742149303.000000
+Z18 !s90 -reportprogress|300|../vhdl/pwm_controller.vhd|
+Z19 !s107 ../vhdl/pwm_controller.vhd|
+!i113 0
+Z20 tExplicit 1 CvgOpt 0
+Artl
+R10
+R11
+R12
+DEx4 work 16 pwm_controller_e 0 22 _6F7=>LE2jCLdkz^i^=XX2
+!i122 112
+l33
+L27 72
+VaG9_S<KQ7SGbJBHIYG1Ji1
+!s100 7Wb?BFZi@dWC50Z_KoTZe1
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+Epwm_digital_top_e
+Z21 w1742146314
+R10
+R11
+R12
+!i122 115
+R1
+Z22 8../vhdl/pwm_digital_top.vhd
+Z23 F../vhdl/pwm_digital_top.vhd
+l0
+L5 1
+VeIQFN=dzn:IC@d:>KUQMj1
+!s100 J7Xzm5?CQg:WhL;Hl?QKE3
+R15
+32
+Z24 !s110 1742149304
+!i10b 1
+Z25 !s108 1742149304.000000
+Z26 !s90 -reportprogress|300|../vhdl/pwm_digital_top.vhd|
+Z27 !s107 ../vhdl/pwm_digital_top.vhd|
+!i113 0
+R20
+Astruct
+R10
+R11
+R12
+DEx4 work 17 pwm_digital_top_e 0 22 eIQFN=dzn:IC@d:>KUQMj1
+!i122 115
+l87
+L20 105
+VbBG]Lm[V]o79XiWS_lU^I2
+!s100 o:gcofoQab?Zh]V6IPlMW2
+R15
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R20
+Epwm_driver_e
+Z28 w1742140851
+R11
+R12
+!i122 113
+R1
+Z29 8../vhdl/pwm_driver.vhd
+Z30 F../vhdl/pwm_driver.vhd
+l0
+L4 1
+V>1LXIRZKfg]D4mk]G0T130
+!s100 5J@BM]PflJOJE[S:=4V271
+R15
+32
+R24
+!i10b 1
+R17
+Z31 !s90 -reportprogress|300|../vhdl/pwm_driver.vhd|
+Z32 !s107 ../vhdl/pwm_driver.vhd|
+!i113 0
+R20
+Artl
+R11
+R12
+DEx4 work 12 pwm_driver_e 0 22 >1LXIRZKfg]D4mk]G0T130
+!i122 113
+l24
+L18 60
+VE4UiL_m70O5<69oEiFR;=1
+!s100 >G>L>KSzTMb@fAgjV?3h[2
+R15
+32
+R24
+!i10b 1
+R17
+R31
+R32
+!i113 0
+R20
+Espi
+Z33 w1742140876
+R10
+R11
+R12
+!i122 114
+R1
+Z34 8../vhdl/spi.vhd
+Z35 F../vhdl/spi.vhd
+l0
+L26 1
+V:;^??^682c9`Bk3BH@;c[1
+!s100 <J8m7VJ048aABaD?KZT>i2
+R15
+32
+R24
+!i10b 1
+R25
+Z36 !s90 -reportprogress|300|../vhdl/spi.vhd|
+Z37 !s107 ../vhdl/spi.vhd|
+!i113 0
+R20
+Artl
+R10
+R11
+R12
+DEx4 work 3 spi 0 22 :;^??^682c9`Bk3BH@;c[1
+!i122 114
+l55
+L47 75
+V<j8DQnU0eId9h=QQfR2Sb1
+!s100 m;8No0NVR5Qlo>Y<6ic8^1
+R15
+32
+R24
+!i10b 1
+R25
+R36
+R37
+!i113 0
+R20
+Etb_pwm_controller
+Z38 w1742140890
+R10
+R11
+R12
+!i122 116
+R1
+Z39 8../tb/tb_pwm_controller_v2.vhd
+Z40 F../tb/tb_pwm_controller_v2.vhd
+l0
+L5 1
+V`7NJh3EIWQKA;k]OE?_Ki1
+!s100 >3Q`e0obB[TBT94^1aI`n3
+R15
+32
+Z41 !s110 1742149305
+!i10b 1
+R25
+Z42 !s90 -reportprogress|300|../tb/tb_pwm_controller_v2.vhd|
+Z43 !s107 ../tb/tb_pwm_controller_v2.vhd|
+!i113 0
+R20
+Atestbench
+R10
+R11
+R12
+DEx4 work 17 tb_pwm_controller 0 22 `7NJh3EIWQKA;k]OE?_Ki1
+!i122 116
+l44
+L8 110
+VgizkfYLdDo6=fhUohCTHS1
+!s100 fozC@DD_THUi;nTVbzDol3
+R15
+32
+R41
+!i10b 1
+R25
+R42
+R43
+!i113 0
+R20
+Etb_pwm_digital_top
+Z44 w1742140900
+R10
+R11
+R12
+!i122 119
+R1
+Z45 8../tb/tb_pwm_digital_top.vhd
+Z46 F../tb/tb_pwm_digital_top.vhd
+l0
+L5 1
+Vz7Na=Di47Fm[1P38N0OSf3
+!s100 M2MS910md?@AACT1D<cJS1
+R15
+32
+R41
+!i10b 1
+Z47 !s108 1742149305.000000
+Z48 !s90 -reportprogress|300|../tb/tb_pwm_digital_top.vhd|
+Z49 !s107 ../tb/tb_pwm_digital_top.vhd|
+!i113 0
+R20
+Atestbench
+R10
+R11
+R12
+DEx4 work 18 tb_pwm_digital_top 0 22 z7Na=Di47Fm[1P38N0OSf3
+!i122 119
+l37
+L8 118
+VMHW046`J;g2:jBdkIz3h>2
+!s100 TO:iAZN1kf][^N8A3?>n^0
+R15
+32
+R41
+!i10b 1
+R47
+R48
+R49
+!i113 0
+R20
+Etb_pwm_driver
+Z50 w1742140909
+R11
+R12
+!i122 117
+R1
+Z51 8../tb/tb_pwm_driver.vhd
+Z52 F../tb/tb_pwm_driver.vhd
+l0
+L4 1
+V=JMIO`=ObB<2>Dl8N9zDH0
+!s100 kFO>IdXikiBcK@:iXBU6W0
+R15
+32
+R41
+!i10b 1
+R47
+Z53 !s90 -reportprogress|300|../tb/tb_pwm_driver.vhd|
+Z54 !s107 ../tb/tb_pwm_driver.vhd|
+!i113 0
+R20
+Abehav
+R11
+R12
+DEx4 work 13 tb_pwm_driver 0 22 =JMIO`=ObB<2>Dl8N9zDH0
+!i122 117
+l32
+L8 66
+VFf?4aR7?]5ZM2GR;O0M`92
+!s100 azHJc[dcKlao[YX><2W^o1
+R15
+32
+R41
+!i10b 1
+R47
+R53
+R54
+!i113 0
+R20
+Etb_pwm_spi
+Z55 w1742148580
+R10
+R11
+R12
+!i122 118
+R1
+Z56 8../tb/tb_spi.vhd
+Z57 F../tb/tb_spi.vhd
+l0
+L5 1
+Vno59eOQckYb1EeXB50VOX1
+!s100 GZ=2Z]H3_0Q78kb5]AnP`0
+R15
+32
+R41
+!i10b 1
+R47
+Z58 !s90 -reportprogress|300|../tb/tb_spi.vhd|
+Z59 !s107 ../tb/tb_spi.vhd|
+!i113 0
+R20
+Atestbench
+R10
+R11
+R12
+DEx4 work 10 tb_pwm_spi 0 22 no59eOQckYb1EeXB50VOX1
+!i122 118
+l47
+L8 127
+V6Y8j8[=nR5ma[mkO<GZLI1
+!s100 EF=8Q9BCUTZA7ZIN_<A`<0
+R15
+32
+R41
+!i10b 1
+R47
+R58
+R59
+!i113 0
+R20
